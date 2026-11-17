@@ -1,0 +1,616 @@
+{
+  "a": {
+    "lower": {
+      "numerator": "10934723084406213379",
+      "denominator": "12574841829147140820"
+    },
+    "upper": {
+      "numerator": "1029817670854710154",
+      "denominator": "1047903485762261735"
+    },
+    "lower_assignment": [
+      0,
+      2,
+      1,
+      0,
+      2,
+      3,
+      0,
+      2
+    ],
+    "upper_assignment": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "loose_lower": {
+      "numerator": "10934723084406213379",
+      "denominator": "12574841829147140820"
+    },
+    "loose_upper": {
+      "numerator": "1029817670854710154",
+      "denominator": "1047903485762261735"
+    },
+    "domains": [
+      2,
+      3,
+      4,
+      2,
+      3,
+      4,
+      2,
+      3
+    ],
+    "components": [
+      {
+        "variables": [
+          0
+        ],
+        "option_count": 2,
+        "lower_option": 0,
+        "upper_option": 0
+      },
+      {
+        "variables": [
+          1
+        ],
+        "option_count": 3,
+        "lower_option": 2,
+        "upper_option": 0
+      },
+      {
+        "variables": [
+          2
+        ],
+        "option_count": 4,
+        "lower_option": 1,
+        "upper_option": 2
+      },
+      {
+        "variables": [
+          3
+        ],
+        "option_count": 2,
+        "lower_option": 0,
+        "upper_option": 0
+      },
+      {
+        "variables": [
+          4
+        ],
+        "option_count": 3,
+        "lower_option": 2,
+        "upper_option": 0
+      },
+      {
+        "variables": [
+          5
+        ],
+        "option_count": 4,
+        "lower_option": 3,
+        "upper_option": 0
+      },
+      {
+        "variables": [
+          6
+        ],
+        "option_count": 2,
+        "lower_option": 0,
+        "upper_option": 0
+      },
+      {
+        "variables": [
+          7
+        ],
+        "option_count": 3,
+        "lower_option": 2,
+        "upper_option": 0
+      }
+    ],
+    "certificate": {
+      "contract": "exact dyadic stored-area and tolerance metric; categorical Boolean-union alternatives",
+      "attainable": true,
+      "area_weight_denominator": "18014398509481984",
+      "constant_numerator_units": "8687598610482075938",
+      "constant_denominator_units": "13001790604269671556",
+      "lower_terminal_reduced_cost": "0",
+      "upper_terminal_reduced_cost": "0",
+      "independent_numerator_min": "21869446168812426758",
+      "independent_numerator_max": "24715624100513043696",
+      "independent_denominator_min": "25149683658294281640",
+      "independent_denominator_max": "25149683658294281640"
+    },
+    "stats": {
+      "variables": 8,
+      "global_completions": "3456",
+      "component_count": 8,
+      "max_component_variables": 1,
+      "max_component_states": 4,
+      "option_count": 23,
+      "options_per_component": [
+        2,
+        3,
+        4,
+        2,
+        3,
+        4,
+        2,
+        3
+      ],
+      "reference_factors": 1120,
+      "coverage_factors": 233,
+      "coverage_factor_links": 938,
+      "compressed_factors": [
+        {
+          "reference_code_functions": 88,
+          "coverage_functions": 0
+        },
+        {
+          "reference_code_functions": 102,
+          "coverage_functions": 39
+        },
+        {
+          "reference_code_functions": 123,
+          "coverage_functions": 62
+        },
+        {
+          "reference_code_functions": 80,
+          "coverage_functions": 0
+        },
+        {
+          "reference_code_functions": 104,
+          "coverage_functions": 37
+        },
+        {
+          "reference_code_functions": 125,
+          "coverage_functions": 57
+        },
+        {
+          "reference_code_functions": 80,
+          "coverage_functions": 0
+        },
+        {
+          "reference_code_functions": 100,
+          "coverage_functions": 34
+        }
+      ],
+      "neighbor_checks": 5600,
+      "witness_mask": true,
+      "footprint_offsets": 5,
+      "footprint_radii": [
+        1,
+        1,
+        0
+      ],
+      "empty_prediction_special_case": false,
+      "lower_solver_iterations": 2,
+      "upper_solver_iterations": 2,
+      "compile_seconds": 0.00735095888376236,
+      "enumeration_seconds": 0.0011089583858847618,
+      "solve_seconds": 7.374957203865051e-05,
+      "total_seconds": 0.008533917367458344
+    },
+    "option_tables": [
+      [
+        {
+          "numerator_units": "1731914038639552584",
+          "denominator_units": "1731914038639552584"
+        },
+        {
+          "numerator_units": "1731914038639552584",
+          "denominator_units": "1731914038639552584"
+        }
+      ],
+      [
+        {
+          "numerator_units": "2034380780071561118",
+          "denominator_units": "1411198561585818104"
+        },
+        {
+          "numerator_units": "2034380780071561118",
+          "denominator_units": "1411198561585818104"
+        },
+        {
+          "numerator_units": "1496833930525622686",
+          "denominator_units": "1411198561585818104"
+        }
+      ],
+      [
+        {
+          "numerator_units": "2158890937375248236",
+          "denominator_units": "1411198561585818104"
+        },
+        {
+          "numerator_units": "1905637753004026368",
+          "denominator_units": "1411198561585818104"
+        },
+        {
+          "numerator_units": "2443184602549964800",
+          "denominator_units": "1411198561585818104"
+        },
+        {
+          "numerator_units": "2195367167999704964",
+          "denominator_units": "1411198561585818104"
+        }
+      ],
+      [
+        {
+          "numerator_units": "1791257051087638248",
+          "denominator_units": "1791257051087638248"
+        },
+        {
+          "numerator_units": "1791257051087638248",
+          "denominator_units": "1791257051087638248"
+        }
+      ],
+      [
+        {
+          "numerator_units": "2128127245215117049",
+          "denominator_units": "1482766977264908252"
+        },
+        {
+          "numerator_units": "2128127245215117049",
+          "denominator_units": "1482766977264908252"
+        },
+        {
+          "numerator_units": "1581798514984669045",
+          "denominator_units": "1482766977264908252"
+        }
+      ],
+      [
+        {
+          "numerator_units": "2466280519308526862",
+          "denominator_units": "1453412392849952840"
+        },
+        {
+          "numerator_units": "2466280519308526862",
+          "denominator_units": "1453412392849952840"
+        },
+        {
+          "numerator_units": "2007111133393865522",
+          "denominator_units": "1453412392849952840"
+        },
+        {
+          "numerator_units": "1654373569759299194",
+          "denominator_units": "1453412392849952840"
+        }
+      ],
+      [
+        {
+          "numerator_units": "1519002826663134440",
+          "denominator_units": "1519002826663134440"
+        },
+        {
+          "numerator_units": "1519002826663134440",
+          "denominator_units": "1519002826663134440"
+        }
+      ],
+      [
+        {
+          "numerator_units": "1913878426495472657",
+          "denominator_units": "1347142644347787512"
+        },
+        {
+          "numerator_units": "1913878426495472657",
+          "denominator_units": "1347142644347787512"
+        },
+        {
+          "numerator_units": "1501029873666408255",
+          "denominator_units": "1347142644347787512"
+        }
+      ]
+    ]
+  },
+  "b": {
+    "lower": {
+      "numerator": "10966334918752896023",
+      "denominator": "12357812050256521848"
+    },
+    "upper": {
+      "numerator": "1",
+      "denominator": "1"
+    },
+    "lower_assignment": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "upper_assignment": [
+      0,
+      2,
+      3,
+      0,
+      2,
+      2,
+      0,
+      2
+    ],
+    "loose_lower": {
+      "numerator": "10966334918752896023",
+      "denominator": "12357812050256521848"
+    },
+    "loose_upper": {
+      "numerator": "1",
+      "denominator": "1"
+    },
+    "domains": [
+      2,
+      3,
+      4,
+      2,
+      3,
+      4,
+      2,
+      3
+    ],
+    "components": [
+      {
+        "variables": [
+          0
+        ],
+        "option_count": 2,
+        "lower_option": 0,
+        "upper_option": 0
+      },
+      {
+        "variables": [
+          1
+        ],
+        "option_count": 3,
+        "lower_option": 1,
+        "upper_option": 2
+      },
+      {
+        "variables": [
+          2
+        ],
+        "option_count": 4,
+        "lower_option": 1,
+        "upper_option": 3
+      },
+      {
+        "variables": [
+          3
+        ],
+        "option_count": 2,
+        "lower_option": 0,
+        "upper_option": 0
+      },
+      {
+        "variables": [
+          4
+        ],
+        "option_count": 3,
+        "lower_option": 1,
+        "upper_option": 2
+      },
+      {
+        "variables": [
+          5
+        ],
+        "option_count": 4,
+        "lower_option": 1,
+        "upper_option": 2
+      },
+      {
+        "variables": [
+          6
+        ],
+        "option_count": 2,
+        "lower_option": 0,
+        "upper_option": 0
+      },
+      {
+        "variables": [
+          7
+        ],
+        "option_count": 3,
+        "lower_option": 1,
+        "upper_option": 2
+      }
+    ],
+    "certificate": {
+      "contract": "exact dyadic stored-area and tolerance metric; categorical Boolean-union alternatives",
+      "attainable": true,
+      "area_weight_denominator": "18014398509481984",
+      "constant_numerator_units": "8580197419465679679",
+      "constant_denominator_units": "12567731046488433612",
+      "lower_terminal_reduced_cost": "0",
+      "upper_terminal_reduced_cost": "0",
+      "independent_numerator_min": "21932669837505792046",
+      "independent_numerator_max": "24715624100513043696",
+      "independent_denominator_min": "24715624100513043696",
+      "independent_denominator_max": "24715624100513043696"
+    },
+    "stats": {
+      "variables": 8,
+      "global_completions": "3456",
+      "component_count": 8,
+      "max_component_variables": 1,
+      "max_component_states": 4,
+      "option_count": 23,
+      "options_per_component": [
+        2,
+        3,
+        4,
+        2,
+        3,
+        4,
+        2,
+        3
+      ],
+      "reference_factors": 1120,
+      "coverage_factors": 238,
+      "coverage_factor_links": 962,
+      "compressed_factors": [
+        {
+          "reference_code_functions": 88,
+          "coverage_functions": 0
+        },
+        {
+          "reference_code_functions": 102,
+          "coverage_functions": 42
+        },
+        {
+          "reference_code_functions": 123,
+          "coverage_functions": 64
+        },
+        {
+          "reference_code_functions": 80,
+          "coverage_functions": 0
+        },
+        {
+          "reference_code_functions": 104,
+          "coverage_functions": 35
+        },
+        {
+          "reference_code_functions": 125,
+          "coverage_functions": 55
+        },
+        {
+          "reference_code_functions": 80,
+          "coverage_functions": 0
+        },
+        {
+          "reference_code_functions": 100,
+          "coverage_functions": 42
+        }
+      ],
+      "neighbor_checks": 5600,
+      "witness_mask": true,
+      "footprint_offsets": 5,
+      "footprint_radii": [
+        1,
+        1,
+        0
+      ],
+      "empty_prediction_special_case": false,
+      "lower_solver_iterations": 2,
+      "upper_solver_iterations": 2,
+      "compile_seconds": 0.007067707367241383,
+      "enumeration_seconds": 0.0010825423523783684,
+      "solve_seconds": 5.320832133293152e-05,
+      "total_seconds": 0.008203582838177681
+    },
+    "option_tables": [
+      [
+        {
+          "numerator_units": "1731914038639552584",
+          "denominator_units": "1731914038639552584"
+        },
+        {
+          "numerator_units": "1731914038639552584",
+          "denominator_units": "1731914038639552584"
+        }
+      ],
+      [
+        {
+          "numerator_units": "1807379619659044630",
+          "denominator_units": "1411198561585818104"
+        },
+        {
+          "numerator_units": "1554126435287822762",
+          "denominator_units": "1411198561585818104"
+        },
+        {
+          "numerator_units": "2091673284833761194",
+          "denominator_units": "1411198561585818104"
+        }
+      ],
+      [
+        {
+          "numerator_units": "2215451658433713925",
+          "denominator_units": "1411198561585818104"
+        },
+        {
+          "numerator_units": "1648968433625009681",
+          "denominator_units": "1411198561585818104"
+        },
+        {
+          "numerator_units": "2228211743561889317",
+          "denominator_units": "1411198561585818104"
+        },
+        {
+          "numerator_units": "2476029178112149153",
+          "denominator_units": "1411198561585818104"
+        }
+      ],
+      [
+        {
+          "numerator_units": "1791257051087638248",
+          "denominator_units": "1791257051087638248"
+        },
+        {
+          "numerator_units": "1791257051087638248",
+          "denominator_units": "1791257051087638248"
+        }
+      ],
+      [
+        {
+          "numerator_units": "1746833548987863939",
+          "denominator_units": "1482766977264908252"
+        },
+        {
+          "numerator_units": "1475299968941322775",
+          "denominator_units": "1482766977264908252"
+        },
+        {
+          "numerator_units": "2021628699171770779",
+          "denominator_units": "1482766977264908252"
+        }
+      ],
+      [
+        {
+          "numerator_units": "2164045505002453604",
+          "denominator_units": "1453412392849952840"
+        },
+        {
+          "numerator_units": "1955955123775417772",
+          "denominator_units": "1453412392849952840"
+        },
+        {
+          "numerator_units": "2415124509690079112",
+          "denominator_units": "1453412392849952840"
+        },
+        {
+          "numerator_units": "2255641574170527196",
+          "denominator_units": "1453412392849952840"
+        }
+      ],
+      [
+        {
+          "numerator_units": "1519002826663134440",
+          "denominator_units": "1519002826663134440"
+        },
+        {
+          "numerator_units": "1519002826663134440",
+          "denominator_units": "1519002826663134440"
+        }
+      ],
+      [
+        {
+          "numerator_units": "1852725298108868723",
+          "denominator_units": "1347142644347787512"
+        },
+        {
+          "numerator_units": "1675948540020214105",
+          "denominator_units": "1347142644347787512"
+        },
+        {
+          "numerator_units": "2088797092849278507",
+          "denominator_units": "1347142644347787512"
+        }
+      ]
+    ]
+  }
+}

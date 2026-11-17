@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this software if you use it."
+type: software
+title: "Reference-robust evaluation"
+version: 0.4.0
+date-released: 2026-11-18
+authors:
+  - family-names: Shin
+    given-names: Jee-Woo
+    affiliation: Hoseo University
+  - family-names: Hong
+    given-names: Chung-Pyo
+    affiliation: Hoseo University
+repository-code: "https://github.com/jwshin2022/reference-robust-evaluation"
+license: Apache-2.0

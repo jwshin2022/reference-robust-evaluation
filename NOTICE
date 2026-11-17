@@ -1,0 +1,8 @@
+Reference-robust evaluation
+Copyright 2026 Jee-Woo Shin and Chung-Pyo Hong
+
+The file src/reference_robust/vendor/surface_distance/lookup_tables.py is
+from Google DeepMind surface-distance. Copyright 2018 Google Inc.
+It is redistributed under Apache License 2.0 with its original notice retained.
+The remaining research implementation is released under Apache License 2.0.
+Third-party datasets, checkpoints, and manuscripts are not included or relicensed.

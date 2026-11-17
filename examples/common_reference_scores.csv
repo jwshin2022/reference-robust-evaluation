@@ -1,0 +1,5 @@
+case,reference,score_a,score_b
+synthetic_reversal,r1,0.90,0.85
+synthetic_reversal,r2,0.82,0.88
+synthetic_stable,r1,0.90,0.80
+synthetic_stable,r2,0.87,0.82
