@@ -59,3 +59,7 @@ The examples and tests are synthetic. No clinical images, annotations, checkpoin
 ## License and citation
 
 Apache License 2.0. Google DeepMind lookup-table attribution is retained in `NOTICE` and the source header. Cite the software using `CITATION.cff`. Research claims remain limited to the documented experiments; speed comparisons do not establish universal superiority over SCIP.
+
+## Archived version
+
+Version 0.4.0 is archived at https://doi.org/10.5281/zenodo.24326443. The source ZIP is byte-identical to the audited release package.
