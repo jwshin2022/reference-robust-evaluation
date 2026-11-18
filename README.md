@@ -63,3 +63,9 @@ Apache License 2.0. Google DeepMind lookup-table attribution is retained in `NOT
 ## Archived version
 
 Version 0.4.0 is archived at https://doi.org/10.5281/zenodo.24326443. The source ZIP is byte-identical to the audited release package.
+
+## Synthetic solver-limit benchmark
+
+The [solver-limit benchmark](benchmarks/solver-limits/) includes the generated inputs, computation protocols, all 14 family outcomes, SCIP endpoint bounds, and independently checkable certificates.
+
+Versioned benchmark archive: https://doi.org/10.5281/zenodo.24331572 (software 0.4.0 with benchmark supplement 1).

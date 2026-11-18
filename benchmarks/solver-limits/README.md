@@ -1,0 +1,11 @@
+# Synthetic solver-limit benchmark
+
+The 14 generated families cover disjoint, nearly agreeing and overlapping ROI configurations. The three CSV files report every development and confirmation condition, including node limits, unclosed bounds and the preselected time extensions. Use the phase column in FAMILIES.csv to distinguish these groups. ENDPOINTS.csv records the feasible value separately from numerical solver status and bounds. METHOD_CALLS.csv records method costs, while FAMILIES.csv lists common compilation cost. A 15 or 60 second SCIP limit applies to one endpoint after model construction. The 1.11 to 1.17 second results are search plus verification after compilation.
+
+The accompanying solver-limits.tar.xz contains all 14 stored synthetic table inputs, generators, both SCIP formulations, search and verifier implementations, saved per-call outputs, endpoint witnesses, full-mask check results, protocol and SHA-256 manifest. For the three incomplete near-agreement runs it retains the node counts, incumbents, stopping reasons and number of stored terminal prefixes. Individual prefixes from these incomplete runs are omitted. The completed certificates retain their full proof trees. The frozen confirmation file uses portable names for code hashes. Raw execution logs, medical images, reader-level records, weights and manuscripts are outside this release.
+
+To check the saved evidence with Python 3.10 or later, extract the archive, enter the solver-limits directory and run `python3 -B check_saved.py`. The checker verifies the file hashes and the two 96-ROI certificates using the Python standard library. No fitting, search or timing is performed. For a deliberate fresh small-control replication use `python3 -B replicate.py rerun-one` in the extracted directory with NumPy, SciPy and PySCIPOpt installed. The recorded environment used Python 3.12.14, NumPy 2.3.5, SciPy 1.18.1, PySCIPOpt 6.3.0 and SCIP 10.0.2 on macOS arm64. Machine and load affect timings.
+
+The benchmark uses the repository's Apache-2.0 license and retains the included third-party notices. The repository's earlier v0.4.0 software archive is independently accessible at https://doi.org/10.5281/zenodo.24326443.
+
+Versioned benchmark archive: https://doi.org/10.5281/zenodo.24331572 (software 0.4.0 with benchmark supplement 1).

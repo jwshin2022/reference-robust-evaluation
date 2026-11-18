@@ -1,0 +1,15 @@
+id,panel,geometry,rois,blocks,raw_choices,retained_component_options,max_options,compile_seconds,adaptive_complete,adaptive_with_check_s,nodes,adaptive_stop,both_endpoint_masks_checked,exhaustive_assignments,scip_timeout,direct_scip_timeout,both_formulations_separated
+block_16_35071_6,confirmation,overlap,96,16,4^96,65536,4096,18.247715207748115,True,1.1691140420734882,1,,True,0,True,True,True
+block_16_35083_6,confirmation,overlap,96,16,4^96,65516,4096,18.107984666712582,True,1.1089814165607095,1,,True,0,True,True,True
+block_4_35071_4,confirmation,overlap,16,4,4^16,1024,256,0.2687299167737365,True,0.013776624575257301,1,,True,0,False,False,False
+block_4_35083_4,confirmation,overlap,16,4,4^16,1024,256,0.2631256664171815,True,0.013929416425526142,1,,True,0,False,False,False
+near_32_82119,development,near,32,,4^32,128,4,0.2911473335698247,False,18.117316083982587,1000000,node_cap,False,0,True,,False
+near_32_82131,confirmation,near,32,,4^32,128,4,0.28686483297497034,False,17.086248332634568,1000000,node_cap,False,0,True,False,False
+near_32_82147,confirmation,near,32,,4^32,128,4,0.2869249163195491,False,16.90593891683966,1000000,node_cap,False,0,True,False,False
+offset_32_82119,development,offset,32,,4^32,128,4,0.28044270910322666,True,0.04095316678285599,717,,False,0,True,,False
+offset_32_82131,confirmation,offset,32,,4^32,128,4,0.2904059160500765,True,0.0666121244430542,1221,,True,0,True,False,False
+offset_32_82147,confirmation,offset,32,,4^32,128,4,0.28914349991828203,True,0.08417279180139303,1705,,True,0,True,False,False
+offset_64_82131,confirmation,offset,64,,4^64,256,4,0.5770182078704238,True,2.1117607494816184,22893,,True,0,True,False,False
+offset_64_82147,confirmation,offset,64,,4^64,256,4,0.5799151249229908,True,7.418599374592304,80353,,True,0,True,False,False
+offset_8_82131,confirmation,offset,8,,4^8,32,4,0.0835600420832634,True,0.002210209146142006,69,,True,65536,False,False,False
+offset_8_82147,confirmation,offset,8,,4^8,32,4,0.06941408384591341,True,0.002644957974553108,97,,True,65536,False,False,False
